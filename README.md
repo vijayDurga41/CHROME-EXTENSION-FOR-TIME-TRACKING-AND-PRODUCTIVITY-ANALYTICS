@@ -52,3 +52,5 @@ Customizable Productivity Definitions: Users have control over how websites are 
 Actionable Insights: Provides visual and quantitative data to help users identify distractions and optimize their online habits.
 Secure User Data: Emphasizes secure storage and transmission of personal Browse data.
 Scalable Architecture: Designed to handle increasing amounts of user data and concurrent users.
+
+*OUTPUT*:![Image](https://github.com/user-attachments/assets/e4eefca4-241e-45b2-b9a1-b6b9fb11b95c)
