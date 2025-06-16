@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Website Time</h2>
+  <div id="output"></div>
+  <script>
+    chrome.storage.local.get("times", data => {
+      const out = document.getElementById("output");
+      for (let site in data.times) {
+        const p = document.createElement("p");
+        p.textContent = `${site}: ${data.times[site]} units`;
+        out.appendChild(p);
+      }
+    });
+  </script>
+</body>
+</html>
